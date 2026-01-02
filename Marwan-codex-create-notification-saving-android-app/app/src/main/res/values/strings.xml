@@ -1,11 +1,10 @@
 <resources>
-    <string name="app_name">Notification Vault</string>
-    <string name="notification_service_label">Notification Vault Listener</string>
-    <string name="main_header">Saved Notifications</string>
-    <string name="main_subtitle">Enable the notification listener to capture and store all incoming alerts.</string>
-    <string name="enable_listener">Enable notification access</string>
-    <string name="notification_count">%1$d notifications saved</string>
-    <string name="keep_alive_title">Notification Vault is active</string>
-    <string name="keep_alive_text">Listening for notifications in the background.</string>
-    <string name="keep_alive_channel_name">Background Monitoring</string>
+    <string name="app_name">Notification Archive</string>
+    <string name="notification_listener_label">Notification Archive Listener</string>
+    <string name="notification_listener_instructions">Enable the notification listener so this app can record notifications from every app.</string>
+    <string name="enable_listener">Enable Listener</string>
+    <string name="empty_state">No notifications captured yet.</string>
+    <string name="keep_alive_title">Notification Archive is running</string>
+    <string name="keep_alive_description">Capturing notifications in the background.</string>
+    <string name="keep_alive_channel_name">Background capture</string>
 </resources>
